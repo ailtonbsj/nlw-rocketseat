@@ -2,6 +2,8 @@
 
 ## Primeiro dia
 
+> Código na pasta `web`
+
 Cria um projeto React usando typescript.
 ```bash
 yarn create react-app web --template typescript
@@ -35,4 +37,24 @@ yarn add leaflet react-leaflet
 Instala modulo de definição de tipos como dependência de desenvolvimento.
 ```bash
 yarn add @types/react-leaflet -D
+```
+
+## Segundo dia
+
+> Código na pasta `backend`
+
+```bash
+yarn init -y
+
+yarn add express
+
+yarn add @types/express -D
+
+yarn add typescript -D
+
+yarn tsc --init
+
+yarn add ts-node-dev -D
+
+yarn add typeorm sqlite3
 ```

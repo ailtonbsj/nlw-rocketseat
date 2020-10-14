@@ -43,18 +43,73 @@ yarn add @types/react-leaflet -D
 
 > Código na pasta `backend`
 
+Inicializa pasta como modulo js/node
 ```bash
 yarn init -y
+```
 
+Instala framework Express ([Documentação](https://expressjs.com/pt-br/)) e definição de tipos
+```bash
 yarn add express
 
 yarn add @types/express -D
+```
 
+Instala modulo TypeScript como dependência de desenvolvimento
+```bash
 yarn add typescript -D
+```
 
+Cria arquivo de coniguração do TypeScript `tsconfig.json`
+```bash
 yarn tsc --init
+```
 
+Instala modulo que reinicializa servidor node se houver mudança de arquivo
+```bash
 yarn add ts-node-dev -D
+```
 
+Instala os modulos TypeORM ([Documentação](https://typeorm.io/#/)) e SQLite3
+```bash
 yarn add typeorm sqlite3
+```
+
+Comandos utilizados para gerar e executar migrations
+```bash
+yarn typeorm migration:create -n create_orphanages
+
+yarn typeorm migration:run
+
+yarn typeorm migration:revert
+
+yarn typeorm migration:create -n create_images
+
+yarn typeorm migration:run
+```
+
+Modulo para envio de arquivos
+```bash
+yarn add multer
+
+yarn add @types/multer -D
+```
+
+Adiciona modulo de suporte a erros async/await no Express
+```bash
+yarn add express-async-errors
+```
+
+Instala modulo de validação do node
+```bash
+yarn add yup
+
+yarn add @types/yup -D
+```
+
+Adiciona modulo para habilitar CORS no node
+```bash
+yarn add cors
+
+yarn add @types/cors -D
 ```

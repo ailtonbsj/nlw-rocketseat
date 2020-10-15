@@ -149,3 +149,28 @@ Instala modulo expo de mapas
 ```bash
 expo install react-native-maps
 ```
+
+Instala modulo expo fonts
+```bash
+expo install expo-font
+```
+
+Instala modulo de font Nunito
+```bash
+expo install @expo-google-fonts/nunito
+```
+
+Instala modulo de roteamento
+```bash
+yarn add @react-navigation/native
+```
+
+Instala dependencias do react-navigation
+```bash
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```
+
+Instala stack navigator
+```bash
+yarn add @react-navigation/stack
+```

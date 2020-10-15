@@ -122,3 +122,30 @@ Instala modulo para ajax
 ```bash
 yarn add axios
 ```
+
+## Quarto dia
+
+Instala o Expo usando yarn (Necessita adicionar yarn no PATH do sistema)
+```bash
+yarn global add expo-cli
+```
+
+Instala o Expo usando npm (Melhor alternativa no Lubuntu)
+```bash
+sudo npm install -g expo-cli
+```
+
+Cria um novo projeto mobile
+```bash
+expo init mobile
+```
+
+Inicializa servidor com fast refresh
+```bash
+yarn start
+```
+
+Instala modulo expo de mapas
+```bash
+expo install react-native-maps
+```

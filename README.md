@@ -113,3 +113,12 @@ yarn add cors
 
 yarn add @types/cors -D
 ```
+
+## Terceiro dia
+
+> Código na pasta `web`
+
+Instala modulo para ajax
+```bash
+yarn add axios
+```

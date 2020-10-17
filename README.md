@@ -140,6 +140,8 @@ Cria um novo projeto mobile
 expo init mobile
 ```
 
+> Código na pasta `mobile`
+
 Inicializa servidor com fast refresh
 ```bash
 yarn start
@@ -173,4 +175,18 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 Instala stack navigator
 ```bash
 yarn add @react-navigation/stack
+```
+
+## Quinto dia
+
+> Código na pasta `mobile`
+
+Instala modulo para ajax
+```bash
+yarn add axios
+```
+
+Instala image picker
+```bash
+expo install expo-image-picker
 ```

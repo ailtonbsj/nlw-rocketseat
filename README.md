@@ -1,4 +1,16 @@
-# Histórico de comandos executados
+<h1 align="center">
+    <img alt="Happy" title="Happy" src=".github/logo.svg" />
+</h1>
+
+<p align="center">
+  <img alt="Happy" src=".github/happy.png" width="80%">
+</p>
+
+## 💻 Projeto
+
+Projeto criado em evento online - NextLevelWeek da RocketSeat
+
+## 🔖 Histórico de comandos executados
 
 ## Primeiro dia
 
